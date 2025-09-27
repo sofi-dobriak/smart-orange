@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 24px;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo-link {
+  display: block;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

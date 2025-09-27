@@ -1,0 +1,47 @@
+.hero {
+  padding-top: 0;
+  position: relative;
+  width: 100vw;
+
+  &::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/hero-decor.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: min(1800px, 98vw);
+    height: 28px;
+    bottom: 72px;
+    z-index: 100;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.swiper-button-prev {
+  margin-left: 40px;
+}
+
+.swiper-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.swiper-icon {
+  color: #eff3f5;
+
+  &.prev {
+    transform: rotate(90deg);
+  }
+
+  &.next {
+    transform: rotate(-90deg);
+  }
+}
