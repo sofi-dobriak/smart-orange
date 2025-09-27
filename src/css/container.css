@@ -7,18 +7,21 @@
 
 @media only screen and (min-width: 768px) {
   .container {
+    padding: 24px;
     max-width: 768px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
+    padding: 32px;
     max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .container {
+
     max-width: 1440px;
   }
 }
@@ -26,6 +29,7 @@
 
 @media only screen and (min-width: 1920px) {
   .container {
+
     max-width: 1920px;
   }
 }
