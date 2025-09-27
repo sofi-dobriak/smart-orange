@@ -142,3 +142,12 @@
 .load-more-icon {
   fill: #0a0f13;
 }
+
+@media screen and (max-width:1920px) {
+  .builds-cards-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+}
