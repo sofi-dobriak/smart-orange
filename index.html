@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Smart orange</title>
   <script type="module" crossorigin src="/smart-orange/index.js"></script>
-  <link rel="modulepreload" crossorigin href="/smart-orange/assets/vendor-D8yHpJ_F.js">
+  <link rel="modulepreload" crossorigin href="/smart-orange/assets/vendor-DaR6TKo8.js">
   <link rel="stylesheet" crossorigin href="/smart-orange/assets/vendor-DiukFYMA.css">
-  <link rel="stylesheet" crossorigin href="/smart-orange/assets/index-ZWZd9Rnn.css">
+  <link rel="stylesheet" crossorigin href="/smart-orange/assets/index-CwRMn-qy.css">
 </head>
 
 <body>
@@ -22,8 +22,9 @@
 </header>
 
   <main>
-    <section class="section hero">
+    <section class="section hero-section">
 
+  <h1 class="visually-hidden">Hero section</h1>
   <div class="swiper">
     <div class="swiper-wrapper">
 
@@ -36,14 +37,14 @@
     </div>
 
     <div class="swiper-button-prev">
-      <button type="button" class="swiper-button prev">
+      <button type="button" class="swiper-button prev" aria-label="Button for swiper on the left">
         <svg width="40" height="24" class="swiper-icon prev">
           <use href="/smart-orange/assets/icons-rdRLdvmW.svg?v=2#icon-arrow"></use>
         </svg>
       </button>
     </div>
     <div class="swiper-button-next">
-      <button type="button" class="swiper-button next">
+      <button type="button" class="swiper-button next" aria-label="Button for swipe on the right">
         <svg width="40" height="24" class="swiper-icon next">
           <use href="/smart-orange/assets/icons-rdRLdvmW.svg?v=2#icon-arrow"></use>
         </svg>
@@ -51,6 +52,36 @@
     </div>
   </div>
 
+</section>
+    <section class="section builds">
+  <div class="container">
+    <h2 class="builds-title">Збудовані обʼєкти</h2>
+
+    <ul class="builds-type-list">
+      <li class="builds-type-item">
+        <a href="#" class="builds-type active">Усі</a>
+      </li>
+      <li class="builds-type-item">
+        <a href="#" class="builds-type">Житловий</a>
+      </li>
+      <li class="builds-type-item">
+        <a href="#" class="builds-type">Громадський</a>
+      </li>
+      <li class="builds-type-item">
+        <a href="#" class="builds-type">Спортивний</a>
+      </li>
+    </ul>
+
+    <ul class="builds-cards-list js-builds-cards-list"></ul>
+
+    <button type="button" class="load-more-button js-load-more-button">
+      Завантажити ще
+      <svg width="8" height="12" class="load-more-icon">
+        <use href="/smart-orange/assets/icons-rdRLdvmW.svg#icon-arrow"></use>
+      </svg>
+    </button>
+
+  </div>
 </section>
   </main>
 
