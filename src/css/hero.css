@@ -38,6 +38,11 @@
 .swiper-icon {
   color: #eff3f5;
 
+  .swiper-button:hover &,
+  .swiper-button:focus & {
+    color: #737373;
+  }
+
   &.prev {
     transform: rotate(90deg);
   }
