@@ -20,6 +20,8 @@ A small project completed as a test assignment based on the
 
 ## 🛠️ Tech Stack
    - Vite
+   - HTML
+   - CSS
    - Vanilla JavaScript (ESM)
    - Swiper
    - Axios
