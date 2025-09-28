@@ -43,6 +43,20 @@
   min-width: 416px;
   position: relative;
 
+  &::before {
+    position: absolute;
+    content: '';
+    top: -28px;
+    right: 40%;
+    transform: translateX(-40%);
+    background-image: url(../img/pin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 50px;
+  }
+
   &::after {
     position: absolute;
     content: '';
