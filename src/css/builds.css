@@ -35,12 +35,12 @@
 }
 
 .builds-cards-item {
-  max-width: calc((100% - 480px) / 3);
+  max-width: 440px;
   border-left: 1px solid rgba(168, 168, 168, 0.2);
   border-right: 1px solid rgba(168, 168, 168, 0.2);
   border-top: 1px solid rgba(168, 168, 168, 0.2);
   padding: 20px 12px;
-  min-width: 416px;
+
   position: relative;
 
   &::before {
@@ -66,7 +66,8 @@
     background-size: cover;
     bottom: -29px;
     left: 0;
-    width: 416px;
+    width: 100%;
+    max-width: 440px;
     height: 30px;
   }
 }

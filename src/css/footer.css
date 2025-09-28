@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: min(880px, 50vw);
+    width: min(880px, 80vw);
     height: 26px;
   }
 }
@@ -38,8 +38,6 @@
   margin-bottom: 84px;
 }
 
-.main-office-block {}
-
 .main-office-title {
   font-weight: 600;
   font-size: 24px;
@@ -62,8 +60,6 @@
   border-radius: 100px;
   padding: 12px 20px;
 }
-
-.social-media-block {}
 
 .social-media-title {
   font-weight: 600;
@@ -92,15 +88,11 @@
   fill: #eff3f5;
 }
 
-.phones-block {}
-
 .phones-title {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 24px;
 }
-
-.phones-list {}
 
 .phones-item {
   display: flex;
