@@ -140,6 +140,8 @@
   gap: 12px;
   background-color: transparent;
   border: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 
   font-weight: 500;
   font-size: 14px;
@@ -148,8 +150,7 @@
 
   &:hover,
   &:focus {
-    border-bottom: 2px solid #0a0f13;
-    padding-bottom: 2px;
+    border-color: #0a0f13;
   }
 }
 
