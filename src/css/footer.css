@@ -1,5 +1,19 @@
 .footer {
   padding-bottom: 200px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/footer-decor.png);
+    top: -24px;
+    left: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: min(880px, 50vw);
+    height: 26px;
+  }
 }
 
 .footer-container {
