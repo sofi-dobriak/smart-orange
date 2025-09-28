@@ -27,9 +27,10 @@
 
 .builds-cards-list {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
-  gap: 100px;
+  row-gap: 100px;
+  column-gap: 100px;
   width: 100%;
   margin-bottom: 100px;
 }
@@ -40,6 +41,7 @@
   border-right: 1px solid rgba(168, 168, 168, 0.2);
   border-top: 1px solid rgba(168, 168, 168, 0.2);
   padding: 20px 12px;
+  min-height: 560px;
 
   position: relative;
 
@@ -161,7 +163,8 @@
 
 @media screen and (min-width:1440px) and (max-width:1919px) {
   .builds-cards-list {
-    gap: 24px;
+    row-gap: 50px;
+    column-gap: 24px;
   }
 }
 
@@ -170,6 +173,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 240px;
+
+    row-gap: 50px;
+    column-gap: 240px;
   }
 }
