@@ -161,6 +161,18 @@
   fill: #0a0f13;
 }
 
+@media screen and (max-width:767px) {
+  .builds-type-list {
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .builds-cards-list {
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width:1440px) and (max-width:1919px) {
   .builds-cards-list {
     row-gap: 50px;
